@@ -19,8 +19,8 @@ a{
 }
 
 img{
-    width: 50%;
-    height: 400px;
+    width: 100%;
+    
     display: flex;
     justify-content: center;
     margin: auto;
