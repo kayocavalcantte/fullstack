@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 header{
-  background-color: darkslateblue;
+  border: 1px solid black;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -12,15 +12,15 @@ header{
 }
 #logo{
   display: inline-block;
-  color: white;
   width: 20%;
   padding: 10px;
+  border: 1px solid black;
 }
 #menu{
-  color: white;
   display: inline-block;
   width: 80%;
   padding: 10px;
+  border: 1px solid black;
 }
 main{
   padding: 10px;
@@ -74,13 +74,23 @@ footer{
 }
 @media screen and (max-width: 730px){
   header{
-    background-color: darkslateblue;
     width: 100%;
     display: block;
   }
+  #logo{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  #menu{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+  }
   section img{
-    display: block;
-    
+    display: block;  
   }
   #img1{
     align-items: center;
